@@ -6,8 +6,8 @@ This project is a **Large Language Model (LLM) powered text generator** that uti
 
 ## Contact
 For any questions, feel free to reach out:
-- **LinkedIn:** -->([LinkedIn Profile](https://www.linkedin.com/in/shanmuganathan120))
-- **GitHub:** ---->([GitHub Profile](https://github.com/Shanmuganathan2004))
+- **LinkedIn:** -->([Shanmuganathan](https://www.linkedin.com/in/shanmuganathan120))
+- **GitHub:** ---->([Shanmuganathan](https://github.com/Shanmuganathan2004))
 
 ## Features
 - **Gradio UI** for user-friendly interaction
