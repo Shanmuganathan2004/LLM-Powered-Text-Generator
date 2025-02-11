@@ -1,14 +1,16 @@
+#Import required Libs and packages
 import requests
 import gradio as gr
 
-# DeepSeek API URL
+# DeepSeek API url to get response from ollma
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
+#Setting up the model and set the word generation limit to 100
 def generate_text(prompt, word_limit=100, language="English"):
     """
     Uses DeepSeek AI to generate text based on a given prompt.
     """
-    full_prompt = f"Write a {language}-language like human text to Generate a response within {word_limit} words:\n\n{prompt}"
+    full_prompt = f"Write a {language}-language like human text to Generate a response within {word_limit} words:\n\n{prompt}" # set the prompt to write like a human 
 
     payload = {
         "model": "deepseek-r1",
