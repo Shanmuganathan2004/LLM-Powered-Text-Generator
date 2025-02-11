@@ -1,7 +1,7 @@
-from fastapi import FastAPI
-import requests
+from fastapi import FastAPI #import fastapi
+import requests #sending requests to ollama
 
-app = FastAPI()
+app = FastAPI() 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
 @app.post("/generate/")
