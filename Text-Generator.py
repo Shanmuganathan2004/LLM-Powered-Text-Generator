@@ -31,7 +31,7 @@ interface = gr.Interface(
     inputs=[gr.Textbox(lines=3, placeholder="Enter your prompt here"), gr.Slider(50, 500, step=50, label="Word Limit"), gr.Button("Regenrate")],
     outputs="text",
     title="AI-Powered Text Generator",
-    theme='NoCrypt/miku',
+    theme='NoCrypt/miku', #a custom theme for the web app
     description="Enter a prompt, select word limit, and generate AI-written content."
 )
 
