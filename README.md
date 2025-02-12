@@ -22,7 +22,6 @@ For any questions, feel free to reach out:
 - **FastAPI** (For API-based access)
 - **DeepSeek-R1 Model** (LLM backend)
 - **Uvicorn** (For running FastAPI)
-- **Docker** (For containerization)
 
 ## Installation
 
@@ -111,14 +110,6 @@ def generate_text(prompt: str, word_limit: int = 100):
     response = requests.post(OLLAMA_URL, json=payload)
     return response.json().get("response", "No content generated.")
 ```
-
-## Deployment
-For Docker users:
-```sh
-docker build -t llm-text-generator .
-docker run -p 7860:7860 llm-text-generator
-```
-
 ## Future Improvements
 - Adding support for fine-tuning on custom datasets
 - Implementing more LLMs (Llama, Falcon, etc.)
