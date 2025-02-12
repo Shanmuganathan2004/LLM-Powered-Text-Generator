@@ -36,7 +36,8 @@ interface = gr.Interface(
 )
 
 # Launch the web app
-if __name__ == "__main__":
+if __name__ == "__main__": 
+    #Lauching the interface
     interface.launch()
 
 
